@@ -8,7 +8,7 @@ dist/
 
 # Environment variables
 .env
-.vscdoe
+.vscode
 .env.local
 .env.development.local
 .env.test.local

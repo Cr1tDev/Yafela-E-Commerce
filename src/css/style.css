@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: "Wix Madefor Display", sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
@@ -123,7 +123,7 @@ img {
 }
 
 .brand-logo a {
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: #000;
@@ -199,8 +199,8 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   grid-template-areas:
-    "heading image"
-    "hero-text image";
+    'heading image'
+    'hero-text image';
   height: 70vh;
   align-items: start;
 }
@@ -227,7 +227,7 @@ img {
 
 .container-primary h1 {
   font-size: clamp(2.5rem, 6vw, 7rem);
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   line-height: 1.1;
   max-width: 60%;
@@ -254,7 +254,7 @@ img {
 .review-heading h2 {
   font-size: clamp(2rem, 5vw, 5rem);
   text-align: center;
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   margin-bottom: 5.5rem;
 }
@@ -299,7 +299,7 @@ img {
 
 .offering__title {
   font-size: clamp(1.2rem, 2vw, 2rem);
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
 }
 
@@ -408,7 +408,7 @@ img {
 .contact-heading h2 {
   font-size: clamp(2rem, 4.5vw, 4.5rem);
   text-align: start;
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   margin-bottom: 2rem;
 }
@@ -453,7 +453,7 @@ img {
 .gallery__overlay p {
   color: #fff;
   font-size: clamp(1rem, 2vw, 1.4rem);
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   margin: 0;
   transform: translateY(10px);
   transition: transform 0.5s ease;
@@ -500,7 +500,7 @@ img {
 
 .question-title {
   font-size: 3rem;
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
@@ -548,7 +548,7 @@ img {
   border-bottom: 1px solid #000;
   background: transparent;
   padding: 0.8rem 0;
-  font-family: "Wix Madefor Display", sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
   font-size: 1.3rem;
   font-weight: 200;
   outline: none;
@@ -570,7 +570,7 @@ img {
 }
 
 .contact-container-main .btn {
-  font-family: "Wix Madefor Display", sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
   padding: 0.5rem 0;
   font-weight: 100;
 }
@@ -615,7 +615,7 @@ footer {
 .logo-text {
   font-size: 8rem;
   font-weight: 500;
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
 }
 
 .footer-info {
@@ -640,7 +640,7 @@ footer {
 
 .newsletter-section h2 {
   font-weight: 400;
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-size: 3rem;
 }
 
@@ -662,11 +662,11 @@ footer {
   font-style: normal;
 }
 
-.footer-form-group input[type="email"] {
+.footer-form-group input[type='email'] {
   padding: 0.8rem;
   border: none;
   font-weight: 200;
-  font-family: "Wix Madefor Display", sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
   border-bottom: 1px solid #1a1a1a;
   background: transparent;
   font-size: 1.4rem;
@@ -674,7 +674,7 @@ footer {
   transition: border-color 0.3s;
 }
 
-.footer-form-group input[type="email"]:focus {
+.footer-form-group input[type='email']:focus {
   border-bottom-color: #666;
 }
 
@@ -687,7 +687,7 @@ footer {
   font-style: normal;
 }
 
-.checkbox-group input[type="checkbox"] {
+.checkbox-group input[type='checkbox'] {
   cursor: pointer;
 }
 
@@ -708,7 +708,7 @@ footer {
   background: transparent;
   border: 1px solid #1a1a1a;
   border-radius: 30px;
-  font-family: "Wix Madefor Display", sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
   font-size: 1.4rem;
   font-weight: 200;
   cursor: pointer;
@@ -752,7 +752,7 @@ footer {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #fff9f2;
     flex-direction: column;
     padding: 2rem 0;
   }
@@ -774,7 +774,7 @@ footer {
   }
 
   .navigation-links.active::after {
-    content: "";
+    content: '';
     display: block;
     width: 100%;
   }
@@ -819,7 +819,7 @@ footer {
 
   .offering__title {
     font-size: 0.8rem;
-    font-family: "Fraunces", serif;
+    font-family: 'Fraunces', serif;
     font-weight: 600;
     width: 60%;
     margin: 0 auto;
@@ -945,7 +945,7 @@ footer {
     align-content: end;
   }
 
-  .footer-form-group input[type="email"] {
+  .footer-form-group input[type='email'] {
     padding: 2px;
     font-weight: 200;
     font-size: 1rem;
