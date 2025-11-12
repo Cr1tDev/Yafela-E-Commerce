@@ -1,0 +1,23 @@
+{
+  "name": "yafela-e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Cr1tDev/Yafela-E-Commerce#readme",
+  "bugs": {
+    "url": "https://github.com/Cr1tDev/Yafela-E-Commerce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cr1tDev/Yafela-E-Commerce.git"
+  },
+  "license": "ISC",
+  "author": "Ivan Arre",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}

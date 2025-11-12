@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles & Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./src/assets/yafela-logo.svg" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script type="module" src="./src/js/main.js"></script>
+    <title>Yafela Beauty Product</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <custom-carousel></custom-carousel>
+        <div class="container">
+          <div class="brand-container">
+            <div class="brand-logo">
+              <a href="#">Yafela</a>
+            </div>
+
+            <!-- Hamburger Button -->
+            <button class="hamburger" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="navigation-links">
+              <div></div>
+              <ul>
+                <li class="link-item"><a href="/">Home</a></li>
+                <li class="link-item"><a href="#about-section">About</a></li>
+                <li class="link-item">
+                  <a href="#features-section">Features</a>
+                </li>
+                <li class="link-item">
+                  <a href="#contact-section">Contact</a>
+                </li>
+              </ul>
+
+              <!-- Contact button now inside navigation-links -->
+              <div class="contact-container">
+                <a href="#" class="btn btn-primary">Contact Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <section class="hero-section" id="hero-section">
+        <div class="hero-container">
+          <div class="hero-image">
+            <img src="./src/assets/yafela-img.avif" alt="Yafela" />
+          </div>
+          <div class="hero-heading">
+            <div class="container-primary">
+              <h1>Reveal Your Natural Radiance</h1>
+            </div>
+          </div>
+          <div class="hero-text">
+            <div class="container-primary">
+              <p>
+                Introducing our breakthrough formula <br />
+                that combines science and nature for <br />
+                transformative skincare.
+              </p>
+              <a href="#" class="btn btn-primary btn--scroll-to"
+                >Learn more &DownArrow;</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offerings" id="features-section">
+        <div class="container">
+          <div class="offerings__container">
+            <h2 class="offerings__title mask-reveal">Our Offerings</h2>
+
+            <div class="offerings__grid">
+              <!-- Row 1 -->
+              <div class="offerings__row section">
+                <article class="offering">
+                  <div class="offering__image">
+                    <img src="./src/assets/offer-2.svg" alt="Deep Hydration" />
+                  </div>
+                  <h3 class="offering__title">Deep Hydration</h3>
+                </article>
+
+                <article class="offering">
+                  <div class="offering__image">
+                    <img
+                      src="./src/assets/offer-5.svg"
+                      alt="Improves Elasticity"
+                    />
+                  </div>
+                  <h3 class="offering__title">Improves Elasticity</h3>
+                </article>
+
+                <article class="offering">
+                  <div class="offering__image">
+                    <img
+                      src="./src/assets/offer-10.svg"
+                      alt="Brightens Skin Tone"
+                    />
+                  </div>
+                  <h3 class="offering__title">Brightens Skin Tone</h3>
+                </article>
+              </div>
+
+              <!-- Divider -->
+              <div class="offerings__divider"></div>
+
+              <!-- Row 2 -->
+              <div class="offerings__row section">
+                <article class="offering">
+                  <div class="offering__image">
+                    <img
+                      src="./src/assets/offer-4.svg"
+                      alt="Soothes Irritation"
+                    />
+                  </div>
+                  <h3 class="offering__title">Soothes Irritation</h3>
+                </article>
+
+                <article class="offering">
+                  <div class="offering__image">
+                    <img
+                      src="./src/assets/offer-3.svg"
+                      alt="Protects Against Stressors"
+                    />
+                  </div>
+                  <h3 class="offering__title">
+                    Protects Against Environmental Stressors
+                  </h3>
+                </article>
+
+                <article class="offering">
+                  <div class="offering__image">
+                    <img
+                      src="./src/assets/offer-1.svg"
+                      alt="Non-Greasy Formula"
+                    />
+                  </div>
+                  <h3 class="offering__title">Non-Greasy Formula</h3>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="about" id="about-section">
+        <div class="container">
+          <div class="about-heading">
+            <h2 class="mask-reveal">Learn About Yafela</h2>
+          </div>
+          <div class="about__grid section">
+            <div class="about-image">
+              <img src="./src/assets/about-img.avif" alt="sample" />
+            </div>
+            <div class="about-text">
+              <p>
+                Yafela is a revolutionary beauty brand dedicated to providing
+                high-quality, innovative products that enhance your natural
+                beauty. Our products are carefully crafted using the finest
+                ingredients to deliver exceptional results. Explore our range
+                and discover the perfect beauty solutions for your daily
+                routine.
+              </p>
+              <a class="btn btn-secondary" href="#">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <div class="review-heading">
+            <h2 class="mask-reveal">Reviews</h2>
+          </div>
+
+          <div class="reviews__flex section">
+            <div class="review-item">
+              <p>
+                "The Yafela skincare line is amazing! It has completely
+                transformed my skin, leaving it radiant and smooth. Highly
+                recommended."
+              </p>
+              <span>Sarah G.</span>
+            </div>
+
+            <div class="review-item">
+              <p>
+                "I can't get enough of the Yafela hair care products. They smell
+                divine and make my hair feel incredibly soft and manageable."
+              </p>
+              <span>Michael R.</span>
+            </div>
+
+            <div class="review-item">
+              <p>
+                "Yafela's makeup collection is top-notch. The colors are
+                vibrant, and the products are long-lasting. I feel confident and
+                beautiful every time I use them."
+              </p>
+              <span>Emily L.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery__heading">
+            <h2 class="mask-reveal">Gallery</h2>
+          </div>
+          <div class="gallery__grid section">
+            <div class="gallery__item">
+              <img src="./src/assets/gallery-1.avif" alt="gallery image" />
+              <div class="gallery__overlay">
+                <p>Deep Hydration</p>
+              </div>
+            </div>
+
+            <div class="gallery__item">
+              <img src="./src/assets/gallery-2.avif" alt="gallery image" />
+              <div class="gallery__overlay">
+                <p>Elasticity</p>
+              </div>
+            </div>
+
+            <div class="gallery__item">
+              <img src="./src/assets/gallery-3.avif" alt="gallery image" />
+              <div class="gallery__overlay">
+                <p>Non-Greasy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ -->
+      <section class="faq">
+        <div class="container">
+          <div class="faq__grid">
+            <div class="faq-heading">
+              <h2 class="mask-reveal">FAQ</h2>
+            </div>
+            <div class="faq-question section">
+              <div class="question">
+                <h4 class="question-title">Why Choose Us</h4>
+                <p>
+                  At Yafela, we provide top-notch services tailored to your
+                  requirements. Whether you need maintenance, repairs, or
+                  installations, we've got you covered.
+                </p>
+              </div>
+              <div class="question">
+                <h4 class="question-title">Customer Reviews</h4>
+                <p>
+                  At Yafela, we provide top-notch services tailored to your
+                  requirements. Whether you need maintenance, repairs, or
+                  installations, we've got you covered.
+                </p>
+              </div>
+              <div class="question">
+                <h4 class="question-title">Contact Us</h4>
+                <p>
+                  At Yafela, we provide top-notch services tailored to your
+                  requirements. Whether you need maintenance, repairs, or
+                  installations, we've got you covered.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact" id="contact-section">
+        <div class="container">
+          <div class="contact-heading">
+            <h2 class="mask-reveal">Contact Us</h2>
+          </div>
+          <div class="contact-container-main section">
+            <form action="#" method="post">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>First name *</label>
+                  <input type="text" required />
+                </div>
+                <div class="form-group">
+                  <label>Last name *</label>
+                  <input type="text" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Email *</label>
+                  <input type="email" required />
+                </div>
+                <div class="form-group">
+                  <label>Phone *</label>
+                  <input type="tel" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Subject *</label>
+                <input type="text" required />
+              </div>
+
+              <div class="form-group">
+                <label>Message *</label>
+                <textarea rows="3" required></textarea>
+              </div>
+
+              <div class="form-group">
+                <button class="btn btn-secondary" type="submit">Submit</button>
+              </div>
+            </form>
+            <div class="contact-image">
+              <img
+                src="./src/assets/contact-img.avif"
+                alt="Contact illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container section">
+          <div class="footer-container">
+            <section class="footer-brand">
+              <div class="footer-logo">
+                <div class="logo-icon">
+                  <img src="./src/assets/offer-3.svg" alt="yefela logo" />
+                </div>
+                <h1 class="logo-text">Yafela</h1>
+              </div>
+
+              <div class="footer-info">
+                <a href="tel:123-456-7890">123-456-7890</a> <br />
+                <a href="mailto:info@mysite.com">info@mysite.com</a>
+              </div>
+
+              <address class="footer-info">
+                <p>500 Terry Francine Street,<br />San Francisco, CA 94158</p>
+              </address>
+
+              <div class="footer-info" aria-label="Footedivigation">
+                <a href="#privacy">Privacy Policy</a> <br />
+                <a href="#accessibility">Accessibility Statement</a>
+              </div>
+            </section>
+
+            <section class="newsletter-section">
+              <h2>Subscribe to Our Newsletter</h2>
+
+              <form class="newsletter-form" onsubmit="handleSubmit(event)">
+                <div class="footer-form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="checkbox-group">
+                  <input
+                    type="checkbox"
+                    id="subscribe"
+                    name="subscribe"
+                    required
+                  />
+                  <label for="subscribe"
+                    >Yes, subscribe me to your newsletter. *</label
+                  >
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+              </form>
+
+              <div class="footer-bottom">
+                <p>
+                  © 2035 <a href="#" target="_blank" rel="noopener">Yafela</a>.
+                  All rights reserved.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
